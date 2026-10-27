@@ -1,0 +1,35 @@
+# Local build outputs
+/build/
+/build-*/
+/cmake-build-*/
+**/CMakeFiles/
+CMakeCache.txt
+compile_commands.json
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.exe
+*.pdb
+
+# Generated images and debug outputs
+/outputs/*
+!/outputs/.gitkeep
+
+# Official/third-party course packages (download locally; do not redistribute)
+/assets/official/*
+!/assets/official/README.md
+
+# IDE and system temporary files
+.vscode/settings.json
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.tmp
+__pycache__/
+.pytest_cache/
+.venv/
